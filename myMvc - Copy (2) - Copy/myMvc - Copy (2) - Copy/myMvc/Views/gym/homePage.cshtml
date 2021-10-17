@@ -1,0 +1,142 @@
+﻿@model IEnumerable<myMvc.Models.gym>
+
+@{
+    ViewBag.Title = "homePage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>health fitness</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" />
+    @*<link rel="stylesheet" href="index.css">*@
+    <link rel="stylesheet" href="indexes.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+        <div class="container">
+            <div id="about"></div>
+                <div class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top"
+                     style="background-image: url('../image/01.jpg')">
+                     
+
+                    <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
+                        <h1 id="about1" style="color: orange;" uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; viewport: 0.5;">
+                            About
+                            US
+                        </h1>
+                        <p uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; viewport: 0.5;">
+                            We are here to provide you
+                            different kind of services
+                            during this COVID-19 Quarantine.We hope you are getting all the services provided by
+                            us.If you have any doubt regarding our services please contact us.
+                        </p>
+                    </div>
+                </div>        
+        </div>
+    <div class="uk-child-width-expand " uk-grid="parallax: 150">
+        <div>
+            <div class="uk-card uk-card-default uk-card-body uk-grid-margin">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="../image/gym-gir.jpg" alt="">
+                        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                            <p class="uk-h4 uk-margin-remove">
+                                I just wanted to sincerely thank you for the opportunity to represent Precision
+                                Nutrition and the US at such an amazing event.
+                            </p>
+                        </div>
+                    </div>
+                    <h1 class="uk-margin-small-top">FILEX</h1>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body uk-grid-margin">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="../image/g3.jpeg" alt="">
+                        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                            <p class="uk-h4 uk-margin-remove">
+                                I just wanted to sincerely thank you for the opportunity to represent Precision
+                                Nutrition and the US at such an amazing event.
+                            </p>
+                        </div>
+                    </div>
+                    <h1 class="uk-margin-small-top">IGNITING</h1>
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body uk-grid-margin">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="../image/g2.jpg" alt="">
+                        <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                            <p class="uk-h4 uk-margin-remove">
+                                I just wanted to sincerely thank you for the opportunity to represent Precision
+                                Nutrition and the US at such an amazing event.
+                            </p>
+                        </div>
+                    </div>
+                    <h1 class="uk-margin-small-top">PASSION</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+   @*</div>*@
+   <div id="contact">
+    <div class="uk-section-default">
+        @*<div class="uk-section uk-light uk-background-contain" style="background-color:black ">*@
+            <div class="uk-container">
+                <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+                    <div>
+                        <span class="uk-h4">World wide access</span>
+                        <p>
+                            Anytime Fitness is the best solution, when it comes to anywhere access.
+                            We have more than 4800 gyms which are accessible worldwide in more than
+                            32 countries!! that too with a single key. No matter where you go,
+                            you will find us!.
+                        </p>
+                    </div>
+                    <div>
+                        <span class="uk-h4">Personal trainer</span>
+                        <p>
+                            Our Personal Trainers ensure you perform exercises safely while giving
+                            you the best results. No matter what your fitness needs one of our
+                            friendly Personal Trainers will keep you challenged and motivated.
+                        </p>
+                    </div>
+                    <div>
+                        <span class="uk-h4">Contact information</span>
+
+                        @*<p>instagram: gym@12354 <img src="../image/in.png" alt=""></p>
+
+                        <p>youtube: fitness@etyy <img src="../image/you.png" alt=""></p>
+                        <p>Facebook page: acefitness. <img src="../image/facebook.png" alt=""><</p>*@
+                        <ul class="uk-list">
+                            <li><a href="#">Istagram page <img src="../image/in.png" alt="" /></a></li>
+                            <li><a href="#">Facebook page <img src="../image/facebook.png" alt=""></a></li>
+                            <li><a href="#">Youtube channel <img src="../image/you.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        @*</div>*@
+    </div>
+   </div>
+  @*</div>*@
+</body>
+
+</html>
+
+
+

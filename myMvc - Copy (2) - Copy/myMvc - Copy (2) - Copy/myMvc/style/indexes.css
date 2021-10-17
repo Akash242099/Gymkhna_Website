@@ -1,0 +1,62 @@
+﻿body{
+    height: 100%;
+    /*background: url('../image/banner2.jpeg');*/
+    background-image: url('../image/banner2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body.container{
+    padding-left:0px;
+    padding-right:30px;
+}
+#contact {
+    background-color: black;
+}
+
+.uk-navbar-nav > li > a {
+    font-size: 15px;
+    color: orange;
+    background-color: transparent;
+}
+
+.uk-navbar-container-uk-margin(.uk-navbar-transparent) {
+    background: rgb(255 255 255 / 10%);
+}
+
+.uk-margin-small-top {
+    font-family: sans-serif;
+    font-weight: 600;
+    color: orange;
+}
+
+#contact.heading1 {
+    font-family: sans-serif;
+    font-weight: 600;
+    color: orange;
+}
+
+.uk-child-width-expand.uk-grid {
+    background-color: grey;
+    margin-left:1px;
+    margin-right:0px;
+    padding: 50px;
+}
+
+.uk-grid-match {
+    background-repeat: repeat-x;
+}
+
+#contact {
+    background-color: grey;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: orange;
+}
+
+#about {
+    height: 800px;
+}
+.uk-grid {
+    margin-left: 15px;
+}
